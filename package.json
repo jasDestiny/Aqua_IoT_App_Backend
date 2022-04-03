@@ -1,0 +1,19 @@
+{
+  "name": "aqua_iot_app_backend",
+  "version": "1.0.0",
+  "description": "\u001b[A\u001b[A\u001b[B\u001b[BBackend for Aqua IoT application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasDestiny/Aqua_IoT_App_Backend.git"
+  },
+  "author": "John_Samuel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasDestiny/Aqua_IoT_App_Backend/issues"
+  },
+  "homepage": "https://github.com/jasDestiny/Aqua_IoT_App_Backend#readme"
+}
