@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/jasDestiny/Aqua_IoT_App_Backend/issues"
   },
-  "homepage": "https://github.com/jasDestiny/Aqua_IoT_App_Backend#readme"
+  "homepage": "https://github.com/jasDestiny/Aqua_IoT_App_Backend#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "dot-env": "0.0.1",
+    "dotenv": "^16.0.0",
+    "mongoose": "^6.2.9",
+    "password-hash": "^1.2.2"
+  }
 }
