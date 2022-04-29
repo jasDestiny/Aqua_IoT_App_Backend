@@ -9,7 +9,7 @@ const devicemodel={
         required:[true, "password is required"]
     },
     date:{
-        type:Number,
+        type:String,
         required:[true, "city is required"]
     },
     usage:{
@@ -17,4 +17,4 @@ const devicemodel={
     }
 }
 
-module.exports=mongoose.model("device", devicemodel, "device");
+module.exports=mongoose.model("usage", devicemodel, "usage");
