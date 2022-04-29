@@ -23,7 +23,9 @@ app.post("/connectdevice", require("./controllers/auth/connectdevice"));
 app.post("/registerdevice", require("./controllers/auth/registerdevice"));
 app.post("/users/signup", require("./controllers/auth/signup"));
 app.post("/users/login", require("./controllers/auth/login"));
-
+app.post("/device/updateusage", require("./controllers/device/updateusage"));
+app.post("/device/simulateday", require("./controllers/device/updateusage"));
+app.post("/device/usagestatistics", require("./controllers/device/updateusage"));
 
 //connection
 app.listen(port, require("./controllers/connection/connection"));
